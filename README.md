@@ -24,8 +24,7 @@ JSON would be like this, when your request for /feedback API.
 {
 "response_code": 200,
 "response_status": "OK",
-"response_data": [
-{
+"response_data": [{
 "feedback_id": "34",
 "user_name": "nikx",
 "feedback_text": "Hi This is Nikhil. And, &lt;\/html&gt;Im Working in InnovationM",
@@ -35,7 +34,6 @@ JSON would be like this, when your request for /feedback API.
 "user_ip": null,
 "os_type": null,
 "user_device": null
+}]
 }
-]
-}	
 ```
