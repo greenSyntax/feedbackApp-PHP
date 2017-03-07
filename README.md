@@ -10,7 +10,7 @@ Content-type:application/json
 ```
 
 ## Endpoints
-#### + [GET] /feedbacks
+#### +[GET] /feedbacks
 
 Get List of All Feedbacks. 
 
