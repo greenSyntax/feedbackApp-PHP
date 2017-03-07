@@ -1,7 +1,7 @@
 
 FeedbackApp :rocket:
 =======
-Neither it's a mamomth project nor I'm clamimg it. Just a REST API for feedback Service.
+Neither it's a mamomth project nor I'm clamimg it. Just a REST API for feedback Service which has dependency on PHP [Slim Framework](https://www.slimframework.com/) .
 
 ## Header 
 Every Request has this as a Header.
@@ -160,15 +160,11 @@ JSON would be like this, when your request for /deleteFeedback API.
 }	
 ```
 
-===========
-
-##Troubleshoots
-
-
-
 ==========
 
 ## Postman
 You can download postman's file. In case, you want to test via Postman API Tester.
 
+## Support
+In case you want to contribute, just PULL and do your stuff.
 
