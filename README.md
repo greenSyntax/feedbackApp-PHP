@@ -1,5 +1,5 @@
 
-![Image of FeedbackApp](https://github.com/greenSyntax/SwiftInAppManager/blob/master/rest_api.png)
+![Image of FeedbackApp](https://github.com/greenSyntax/feedbackApp-PHP/blob/master/rest_api.png)
 
 
 FeedbackApp :rocket:
