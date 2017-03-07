@@ -1,0 +1,57 @@
+[
+
+	{
+		"name": "Abhishek Kumar Ravi",
+		"age": "23",
+		"city": "Noida",
+		"date_of_birth": "29-03-1993",
+		"hobbies": ["WTF", "STFU", "FU"],
+		"profile_picture" : "https://pbs.twimg.com/profile_images/653606466889187328/5_tNIucQ.jpg"
+	},
+
+	{
+		"name": "Aman Choudhary",
+		"age": "23",
+		"city": "Banglore",
+		"date_of_birth": "12-11-1992",
+		"hobbies": ["wasting time"],
+		"profile_picture" : "https://pbs.twimg.com/profile_images/588397532088115200/_N3FLo0n.jpg"
+	},
+
+	{
+		"name": "Vicky Sinha",
+		"age": "24",
+		"city": "New Delhi",
+		"date_of_birth": "17-11-1947",
+		"hobbies": ["irritating people"],
+		"profile_picture" : "https://pbs.twimg.com/profile_images/3277544273/2e9f2d27d194e64d82462dc015caf0d6_400x400.jpeg"
+	},
+
+	{
+		"name": "Abhishek Singh",
+		"age": "22",
+		"city": "Kolkata",
+		"date_of_birth": "12-11-1994",
+		"hobbies": ["reading books", "poetry"],
+		"profile_picture" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2HYNZNTSFUAmFbaxBwjqqF2vr_ea6M13healrLSszZSLwuigmRw"
+	},
+
+	{
+		"name": "Chandan Kumar",
+		"age": "23",
+		"city": "New Delhi",
+		"date_of_birth": "15-01-1992",
+		"hobbies": ["cooking"],
+		"profile_picture" : "https://pbs.twimg.com/profile_images/713707092004249600/EvAqerua.jpg"
+	},
+
+	{
+		"name": "Santanu Chatterjee",
+		"age": "23",
+		"city": "Durgapur",
+		"date_of_birth": "11-08-1993",
+		"hobbies": ["having chicken"],
+		"profile_picture" : "https://lh3.googleusercontent.com/-k6FccZVD5L0/AAAAAAAAAAI/AAAAAAAABXs/-mkt-vYlPyA/photo.jpg"
+	}
+
+]
