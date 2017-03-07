@@ -20,7 +20,7 @@ http://[BASE_URL]/feedbackApp/feedbacks
 #### Response
 JSON would be like this, when your request for /feedback API.
 
-```prettyjson
+```json
 {
 "response_code": 200,
 "response_status": "OK",
@@ -110,3 +110,59 @@ JSON would be like this, when your request for creating feedback.
 ```
 
 =======
+
+#### + [POST] /updateFeedback
+
+Update feedback *Processing Status*.
+
+```html
+http://[BASE_URL]/feedbackapp/updateFeedback
+```
+### Request
+Body Request Would be Like
+
+```json
+{
+"processing_status":"1",
+"feedback_id":"34"
+}
+```
+
+#### Response
+JSON would be like this, when your request for /updateFeedaback API.
+
+```json
+{
+"response_code": 200,
+"response_status": "Updated",
+"response_data": "Updated Successfully"
+}	
+```
+
+===========
+
+#### + [GET] /deleteFeedback/:feedback_id
+
+Delete Feedback entry by their Id.
+
+```html
+http://[BASE_URL]/feedbackapp/deleteFeedback/34
+```
+
+#### Response
+JSON would be like this, when your request for /deleteFeedback API.
+
+```json
+{
+"response_code": 204,
+"response_status": "Deleted Successfully",
+"response_data": "DELETED"
+}	
+```
+
+===========
+
+## Postman
+You can download postman's file. In case, you want to test via Postman API Tester.
+
+
