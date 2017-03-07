@@ -1,5 +1,5 @@
 
-FeedbackApp REST API
+FeedbackApp :rocket:
 =======
 Neither it's a mamomth project nor I'm clamimg it. Just a REST API for feedback Service.
 
