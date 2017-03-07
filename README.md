@@ -9,7 +9,7 @@ Every API Request has this as a Header.
 Content-type:application/json
 ```
 
-## Ednpoints
+## Endpoints
 #### + [GET] /feedbacks
 
 Get List of All Feedbacks. 
@@ -20,7 +20,7 @@ http://[BASE_URL]/feedbackApp/feedbacks
 #### Response
 JSON would be like this, when your request for /feedback API.
 
-```json
+```prettyjson
 {
 "response_code": 200,
 "response_status": "OK",
