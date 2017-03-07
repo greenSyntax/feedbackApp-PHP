@@ -4,7 +4,7 @@ FeedbackApp :rocket:
 Neither it's a mamomth project nor I'm clamimg it. Just a REST API for feedback Service.
 
 ## Header 
-Every API Request has this as a Header.
+Every Request has this as a Header.
 ```json
 Content-type:application/json
 ```
@@ -161,6 +161,12 @@ JSON would be like this, when your request for /deleteFeedback API.
 ```
 
 ===========
+
+##Troubleshoots
+
+
+
+==========
 
 ## Postman
 You can download postman's file. In case, you want to test via Postman API Tester.
