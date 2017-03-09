@@ -165,6 +165,11 @@ JSON would be like this, when your request for /deleteFeedback API.
 
 ==========
 
+#Database Dumps
+You can import this SQL file in your phpMyAdmin.
+[feedbackApp SQL Dump](https://github.com/greenSyntax/feedbackApp-PHP/blob/master/Resources/MySQL%20Dumps/db_feedbackapp.sql)
+
+
 ## Postman
 You can download postman's file. In case, you want to test via Postman API Tester.
 
