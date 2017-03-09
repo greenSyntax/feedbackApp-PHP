@@ -175,5 +175,5 @@ You can download postman's file. In case, you want to test via Postman API Teste
 
 ## Support
 In case you want to contribute, just PULL and do your stuff.
-mail me at [support@greensyntax.co.in](mail://support@greensyntax.co.in)
+mail me at [support@greensyntax.co.in](http://support@greensyntax.co.in)
 
