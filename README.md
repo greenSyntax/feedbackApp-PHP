@@ -171,7 +171,8 @@ You can import this SQL file in your phpMyAdmin.
 
 
 ## Postman
-You can download postman's file. In case, you want to test via Postman API Tester.
+Download Postman File and import JSON file to your Postman
+[Get File](https://github.com/greenSyntax/feedbackApp-PHP/blob/master/Resources/Postman/FeedbackApp.postman_collection.json)
 
 ## Support
 In case you want to contribute, just PULL and do your stuff.
