@@ -1,4 +1,5 @@
 <?php
+
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 
@@ -28,6 +29,16 @@ $app->get('/hello/{name}', function (Request $request, Response $response) {
 
     return $response;
 });
+
+// ** LOGIN **
+$app->get('/login', function(Request $request, Response $response){
+
+	require 'public/include/DbManager.php';
+
+	$db = new DbManager();
+	
+});
+
 
 // *** GET ALL FEEBACKS LIST ***
 $app->get('/feedbacks', function (Request $request, Response $response) {
@@ -62,7 +73,7 @@ $app->get('/feedback/{id}', function (Request $request, Response $response) {
     if($data != null){
 
     	//onSucess
-    	return prepareResponse(200, STTAUS_OK, $data, $response);
+    	return prepareResponse(200, STAUS_OK, $data, $response);
     }
     else{
 
@@ -82,7 +93,10 @@ $app->post('/createFeedback', function(Request $request, Response $response){
 	// Get Parameters
 	$user_name = Utility::getFormattedText($request->getParsedBody()['user_name']);
 	$feedback_text = Utility::getFormattedText($request->getParsedBody()['feedback_text']);
-	$user_mail = Utility::getFormattedText($request->getParsedBody()['user_mail']);
+	
+	//FIXME
+	//--$user_mail = Utility::getFormattedText($request->getParsedBody()['user_mail']);
+	$user_mail = "anonymous@fixme.com";
 
 	if($user_name != "" && $feedback_text != ""){
 

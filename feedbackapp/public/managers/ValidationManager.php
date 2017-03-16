@@ -2,6 +2,13 @@
 
 class ValidationManager{
 
+	//Genrate Password Hash
+	static function encryptPassword($password){
+
+		$hash = md5($password);
+		return $hash;
+	}
+
 
 	// Validate /CreateAPI
 	static function isValidateForCreateFeedback($userName, $feedbackText, $userEmail){

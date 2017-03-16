@@ -13,17 +13,17 @@
 	//Database Connection
 	function connect(){
 
-	require_once('config.php');
+		require_once('config.php');
 
-	$conn = new mysqli(DB_HOST_NAME, DB_USERNAME, DB_PASSWORD, DB_NAME);
+		$conn = new mysqli(DB_HOST_NAME, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
-	if($conn->connect_error > 0){
-		echo "Error : Unable to Connect Database [".$conn->connect_error."]";	
-	}
+		if($conn->connect_error > 0){
+			echo "Error : Unable to Connect Database [".$conn->connect_error."]";	
+		}
 
-	//echo "Connected Successfully";
+		//echo "Connected Successfully";
 
-	return $conn;
+		return $conn;
 	}
 
 	}
