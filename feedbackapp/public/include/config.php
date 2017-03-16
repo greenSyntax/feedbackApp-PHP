@@ -20,9 +20,9 @@ else if(Deployment::$mode == "PRODUCTION"){
 
 // Production Credentials
 define("DB_HOST_NAME","localhost");
-define("DB_USERNAME", "greensyn_admin");
-define("DB_PASSWORD","Admin@9876");
-define("DB_NAME", "greensyn_db");
+define("DB_USERNAME", "*****");
+define("DB_PASSWORD","****");
+define("DB_NAME", "****");
 }
 
 //Schema Definations
