@@ -1,5 +1,5 @@
 
-![Image of FeedbackApp](https://github.com/greenSyntax/feedbackApp-PHP/blob/master/rest_api.png)
+![Image of FeedbackApp](https://github.com/greenSyntax/feedbackApp-PHP/blob/master/feedback_image.jpg)
 
 
 FeedbackApp :rocket:
