@@ -1,10 +1,8 @@
 
 ![Image of FeedbackApp](https://github.com/greenSyntax/feedbackApp-PHP/blob/master/feedback_image.jpg)
 
-
-FeedbackApp :rocket:
 =======
-Neither it's a mamomth project nor I'm clamimg it. Just a REST API for feedback Service which has dependency on PHP [Slim Framework](https://www.slimframework.com/) .
+Neither it's a mamomth project nor I'm clamimg it. Just a REST API for feedback Service :rocket: which has dependency on PHP [Slim Framework](https://www.slimframework.com/) .
 
 ## Header 
 Every Request has this as a Header.
